@@ -12,7 +12,7 @@ $("ul").on("click","li", function(){
 $("span").on("click", function(event){
     // below code is to remove the parent element
     // in this case the parent of "span" which is "li"
-    // fadeout for 5 seconds then remove
+    // fadeout for 1 seconds then remove
     $(this).parent().fadeOut(1000,function(){
         $(this).remove();
     });
